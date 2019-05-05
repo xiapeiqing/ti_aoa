@@ -1,0 +1,4 @@
+#!/bin/bash
+rm ../../datalog/Log*.dat
+rm ../../datalog/Log*.jpg
+rm ../../datalog/out.mp4

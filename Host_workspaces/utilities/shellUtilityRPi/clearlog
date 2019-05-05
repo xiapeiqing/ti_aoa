@@ -1,0 +1,4 @@
+#!/bin/bash
+cd ~/code/remote_dbg/AoArcvSPI/
+rm Log*.dat
+rm Log*.jpg

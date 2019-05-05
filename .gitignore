@@ -1,0 +1,25 @@
+# linux temperary files
+*~
+*.asv
+*.mat
+*.pyc
+a.out
+Host_workspaces/datalog
+Host_workspaces/datalog_analysisResult
+Host_workspaces/datalog_backup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

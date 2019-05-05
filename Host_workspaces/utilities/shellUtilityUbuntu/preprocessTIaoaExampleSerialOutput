@@ -1,0 +1,2 @@
+#!/bin/bash
+grep -e "aoa" TIsampleAoAserialOutput.txt | sed "s/^.*aoa\"\://" | sed "s/,.*//" > TIaoa.txt

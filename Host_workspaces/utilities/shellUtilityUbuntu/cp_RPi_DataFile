@@ -1,0 +1,4 @@
+#!/bin/bash
+sshpass -p "M2Robots" scp pi@192.168.31.211:/home/pi/code/remote_dbg/AoArcvSPI/Log*.dat ../../datalog
+sshpass -p "M2Robots" scp pi@192.168.31.211:/home/pi/code/remote_dbg/AoArcvSPI/Log*.jpg ../../datalog
+ffmpeg -f image2 -pattern_type glob -i '../../datalog/*.jpg' -r 30 -c:v libx264 -pix_fmt yuv420p ../../datalog/out.mp4

@@ -1,0 +1,2 @@
+#!/bin/bash
+sshpass -p "M2Robots" scp ./AoArcvSPI.cpp pi@192.168.31.211:/home/pi/code/remote_dbg/AoArcvSPI/
