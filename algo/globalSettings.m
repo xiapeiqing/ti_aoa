@@ -59,7 +59,5 @@ if ~isfield(X,'algor')
     if ~exist(X.analysisResultFolder,'dir')
         mkdir(X.analysisResultFolder);
     end
-    assert(exist('../../../RadioLoc/matlab','dir')>0);
-    addpath('../../../RadioLoc/matlab');
 end
 end
